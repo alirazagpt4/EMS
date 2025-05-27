@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+html ,body {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgb(40, 37, 37);
+}
+
+
+#taskList::-webkit-scrollbar{
+    display: none;
+}
+
+#allTasks::-webkit-scrollbar{
+    display: none;
+}
